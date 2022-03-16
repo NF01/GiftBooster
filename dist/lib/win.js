@@ -1,13 +1,13 @@
 const win = (score) => {
     let rang = ""
     if (score < 30 ) {
-        rang = "silver"
+        rang = "SILVER"
     } else if (score < 60) {
-        rang = "Gold"
+        rang = "GOLD"
     }else if (score < 90) {
-        rang = "Platine"
+        rang = "PLATINE"
     } else {
-        rang = "Diamond"
+        rang = "MASTER"
     }
 
     return userType
