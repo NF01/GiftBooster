@@ -76,6 +76,12 @@ a{
 
 }
 
+.button:hover{
+    cursor: pointer;
+
+ 
+}
+
 
 .question{
     margin: 0 auto;

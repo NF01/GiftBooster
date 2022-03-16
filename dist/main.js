@@ -1,9 +1,7 @@
 import { domOn } from '../lib/easyManipulation.js'
 
-domOn("#test", "click", async (evt) => {
+domOn("#begin", "click", async (evt) => {
     evt.preventDefault()
-
-    console.log(5)
     
 
 })
