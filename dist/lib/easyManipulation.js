@@ -4,4 +4,4 @@ const domOn = (selector, event, callback) => {
 
 
 
-export { domOn};
+export { domOn };
