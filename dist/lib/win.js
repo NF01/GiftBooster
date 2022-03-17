@@ -4,13 +4,13 @@ const win = (score) => {
         rang = "SILVER"
     } else if (score < 60) {
         rang = "GOLD"
-    }else if (score < 90) {
+    }else if (score < 80) {
         rang = "PLATINE"
     } else {
         rang = "MASTER"
     }
 
-    return userType
+    return rang
 }
 
 export {win}

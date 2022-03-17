@@ -73,6 +73,7 @@ a{
     border-color:rgba(27, 31, 35, 0.15) ;
     border-width: 0.8px;
     border-top-style: solid;
+    margin-top: 50px;
 
 }
 
@@ -92,6 +93,7 @@ a{
     border-right: solid 2px;
     border-color: #34b4b2;
     padding: 20px;
+    margin-bottom: 60px;
 
 
 
@@ -157,7 +159,7 @@ a{
     margin: 0 auto;
     max-width: 20rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: px;
 }
 
 
@@ -184,8 +186,8 @@ a{
     border-color: #34b4b2;
     padding: 20px;
     border-radius: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 
 }
 

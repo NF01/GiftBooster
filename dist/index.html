@@ -75,12 +75,13 @@
         </div>
     </nav>
 
-    <section id="startPage" >
+    <section id="startPage">
 
 
         <div id="content">
-            <p id="text">efibrvinvgiuthnrqunhriunhr reuhreo gerog erggr giogjroigoregreggregughrurjreogh
-                reugrhrgrehgoroi hro rh g roreore r rore ren r jf ire ri foi hfrwfru wifrfu ifrwif r fw ifrw fi </p>
+            <p id="text"> Ensemble contre les inégalités: bienveillance, simplicité et efficacité réunies sur une seule plateforme pour un maximum d’impact</p><br>
+            <p>Tu viens d'arriver sur le Quiz de GiftBooster</p><br>
+            <p>En jouant tu pourras gagner pleins de prix mis en jeux mais surtout tu aideras la communauté GiftBooster à s'élargir et donc à lutter contre les inégalités, juste en jouant facile non ?  </p>
         </div>
 
         <div id="begin" class="button">
@@ -92,23 +93,17 @@
 
     <section id="quizz" class="hidden">
 
-        <div class="question">
-            <p>Quelle est le plus grand district de ta région ? </p>
+        <div id="question" class="question">
+       
         </div>
 
         <div id="globalresponse">
-            <div class="response blue">
-                <p>Le Vaud</p>
-            </div>
-            <div class="response">
-                <p>Le Vaud</p>
-            </div>
-            <div class="response">
-                <p>Le Vaud</p>
-            </div>
+            <div class="response" data-bool="0" data-point="0"></div>
+
+           
         </div>
 
-        <div id="begin" class="button">
+        <div id="next" class="button">
             Question suivante
 
         </div>
@@ -120,10 +115,7 @@
 
     <section id="end" class="hidden">
 
-        <div id="result" class="question">
-            <p>Ton résultat</p>
-        </div>
-
+    
 
         <div id="note">
             <p id="global"><span id="number">10</span> / 100</p>
@@ -132,37 +124,39 @@
 
         <div class="explain">
 
-        <div id="congrats">
-            <p>Bravo !!!</p>
-            <p> Tu es maître GiftBoosterrien <span id="level">GOLD</span> de l'engagement local et de la solidarité</p><br>
-            <p> Tu es donc automatiquement éligible pour notre grand concours !</p><br>
-            <p> Rentre ton adresse mail et on te contactera pour ton gain !</p>
+            <div id="congrats">
+                <p>Bravo !!!</p>
+                <p> Tu es GiftBoosTerrien <span id="level">GOLD</span> de l'engagement local et de la solidarité
+                </p><br>
+                <p> Tu es donc automatiquement éligible pour notre grand concours !</p><br>
+                <p> Rentre ton adresse mail et on te contactera pour ton gain !</p>
+            </div>
+
+            <div id="email">
+                <input id="stringmail" type="email" placeholder="Email"><br>
+                <div id="submitemail" class="button">Envoyer</div>
+            </div>
+
         </div>
 
-        <div id="email">
-            <input type="text" placeholder="Email"><br>
-            <div id="submitemail" class="button">Submit</div>
-        </div>
+<!-- 
+        <div class="explain" class="hidden">
 
-    </div>
+            <div id="redirect">
+                <p> Si tu veux augmenter ton score et devenir GiftBoosTerrien Master direction GiftBooster.ch pour
+                    commencer à intéragir avec ta communauté locale</p><br>
+            </div>
 
-    
-    <div class="explain">
+            <div id="submitemail" class="button">Direction Giftbooster.ch</div>
 
-        <div id="redirect">
-            <p> Si tu veux augmenter ton score et devenir  GiftBoosTerrien Master direction GiftBooster.ch pour commencer à intéragir avec ta communauté locale</p><br>
-        </div>
-
-        <div id="submitemail" class="button">Direction Giftbooster.ch</div>
-
-    </div>
+        </div> -->
 
 
     </section>
 
 
 </body>
-
+<footer><br></footer>
 
 
 </html>
